@@ -1,0 +1,124 @@
+/* *************************************************************************************
+    LANDING PAGE - TELA PRINCIPAL DO SISTEMA PARA VENDAS E APRESENTAÇÃO DO PRODUTO
+****************************************************************************************** */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "TikTok Sans", sans-serif;
+    
+}
+
+body{
+    background-color:#0F0F0F ;
+}
+header{
+    background:#0F3D2E;
+    padding:15px 20px;
+    
+}
+
+.nav-bar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap: 30px;
+}
+
+.logo{
+    color:white;
+    font-size:20px;
+    font-weight:500;
+}
+
+.btn-cliente{
+    background:white;
+    color:#0F3D2E;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn-cliente:hover{
+    transform:scale(1.05);
+}
+
+
+strong{
+    background-color:#0F3D2E ;
+}
+
+.principal{ /* texto principal*/
+    background-color: #1F1F1F;
+    color: #F5F5F5;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    
+    
+}
+
+.txt-sec{ /* texto secundario*/
+    padding: 20px;
+}
+
+.txt-beneficios{
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.btn-comecar{
+    height:60px;
+    width:220px;
+    border-radius:8px;
+    background-color: #0F3D2E;
+    color:#ffffff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+a{
+    text-decoration: none; /* PARA TIRAR A COR E O SUBLINHADO DO BOTAO */
+    color: inherit;
+    
+}
+
+.btn-comecar:hover{
+    transform:scale(1.05);
+}
+
+.container-cards{
+    background-color: #0F3D2E;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+}
+.card-beneficios{
+    
+    padding: 25px;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 250px;
+    color: #222b26;
+    box-shadow:0 10px 25px rgba(0,0,0,0.25);
+    transition:0.3s;
+    
+    
+}
+
+
