@@ -43,6 +43,7 @@ header{
     border-radius:8px;
     text-decoration:none;
     font-weight:600;
+    font-size: small;
     cursor:pointer;
     transition:0.3s;
     width: 115px;
@@ -86,7 +87,7 @@ strong{
 
 .btn-comecar{
     height:60px;
-    width:220px;
+    width:240px;
     border-radius:8px;
     background-color: #0F3D2E;
     color:#ffffff;
@@ -118,10 +119,10 @@ a{
 }
 .card-beneficios{
     
-    padding: 30px;
+    padding: 30px 20px 30px 20px;
     font-size: 15px;
-    align-items: center;
-    text-align: center;
+    /*align-items: center;*/
+    text-align: left;
     margin: auto;
     background-color: #ffffff;
     border-radius: 20px;
@@ -141,5 +142,33 @@ a{
     
     border: 5px solid #56e4b4;
 }
+
+.finalizacao{
+    background-color: #0F3D2E;
+    color: #F5F5F5;
+    padding: 20px 20px 10px 20px;
+    text-align: left;
+    font-size: small;
+    
+}
+
+.encerramento{    
+    text-align: left;
+    padding: 20px 0px 20px 0px;
+}
+
+.telefone{
+    background-color: #0F0F0F;
+    border-radius: 20px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.direitos{
+    padding: 20px 0px 0px 0px;
+}
+
 
 
