@@ -33,6 +33,9 @@
     transition:0.3s;
 }
 
+.plano-profissional:hover{
+    transform: translateY(-5px);
+}
 .titulo-card-planos{
     text-align: center;
     padding: 0px 0px 20px;
@@ -67,3 +70,4 @@
 .btn-mensagem:hover{
     transform:scale(1.05);
 }
+
