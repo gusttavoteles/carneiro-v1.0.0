@@ -24,20 +24,30 @@ header{
 }
 
 
-.nav-bar{
+.nav-bar{ /* BARRA SUPERIOR*/
     display:flex;
     align-items:center;
     justify-content:space-between;
     gap: 30px;
 }
 
-.logo{
-    color:white;
-    font-size:20px;
-    font-weight:500;
+.logo-foto{ /* LOGO PRINCIPAL*/
+    width: 250px;
+    height: auto;
+    
 }
 
-.btn-cliente{
+.logo{ /* LOGO DA NAVBAR*/
+    width: 100px;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.btn-cliente{ /* BOTAO PARA ENTRAR NO SISTEMA*/
     background:white;
     color:#0F3D2E;
     border-radius:8px;
@@ -53,12 +63,12 @@ header{
     display: flex;
 }
 
-.btn-cliente:hover{
+.btn-cliente:hover{ /* EFEITO DO BOTAO DESKTOP*/
     transform:scale(1.05);
 }
 
 
-strong{
+strong{ /* FUNDO DA TAG STRONG*/
     background-color:#0F3D2E ;
 }
 
@@ -79,13 +89,13 @@ strong{
     
 }
 
-.txt-beneficios{
+.txt-beneficios{ /* TITULO BENEFICIOS*/
     color: #ffffff;
     text-align: center;
 
 }
 
-.btn-comecar{
+.btn-comecar{ /* PRIMEIRO BOTAO DE COMEÇAR TESTE GRATIS*/
     height:60px;
     width:240px;
     border-radius:8px;
@@ -106,18 +116,18 @@ a{
     
 }
 
-.btn-comecar:hover{
+.btn-comecar:hover{ /* EFEITO PRIMEIRO BOTAO COMEÇAR*/
     transform:scale(1.05);
 }
 
-.container-cards{
+.container-cards{ /* FUNDO DA SECTION DOS CARDS BENEFICIOS*/
     background-color: #0F3D2E;
     padding: 20px;
     flex-direction: column;
     display: flex;
     gap: 15px;
 }
-.card-beneficios{
+.card-beneficios{ /* CARDS BENEFICIOS*/
     
     padding: 30px 20px 30px 20px;
     font-size: 15px;
@@ -134,16 +144,16 @@ a{
     
 }
 
-.card-beneficios:hover {
+.card-beneficios:hover { /* EFEITO DESKTOP DOS CARDS BENEFICIOS*/
     transform: translateY(-5px);
 }
 
-.plano-profissional {
+.plano-profissional { /* EFEITO CARD PLANO PROFISSIONAL*/
     
     border: 5px solid #56e4b4;
 }
 
-.finalizacao{
+.finalizacao{ /*FINALIZACAO DO SITE*/
     background-color: #0F3D2E;
     color: #F5F5F5;
     padding: 20px 20px 10px 20px;
@@ -152,7 +162,20 @@ a{
     
 }
 
-.encerramento{    
+.contato, .carneiro-system{ /* FONTE DO FINAL DA PAGINA*/
+    font-size: large;
+}
+
+.linha{ /* LINHA DE DESIGN*/
+    background-color: #ffffff;
+    border-radius: 20%;
+    height: 2px;
+    width: 60%;
+    margin-bottom: 15px;
+    
+}
+
+.encerramento{    /* ALINHAMENTO DO FINAL DA PAGINA*/
     text-align: left;
     padding: 20px 0px 20px 0px;
 }
@@ -166,21 +189,10 @@ a{
     display: flex;
 }
 
-.direitos{
+.direitos{ /* FOOTER DA PAGINA*/
     padding: 20px 0px 0px 0px;
 }
 
-.logo-foto{
-    width: 250px;
-    height: auto;
-    
-}
 
-.logo{
-    width: 100px;
-    height: auto;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-}
+
 
