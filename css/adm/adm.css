@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: "TikTok Sans", sans-serif;
+    font-family: "TikTok Sans", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /*background: linear-gradient(135deg, #000000, #0e472e, #126339);*/
     background-color: rgb(19, 77, 55);
     color: white;
@@ -140,7 +140,10 @@ h4{
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
     transition: 0.3s;
 
+    position: relative;
 }
+
+
 
 .nova-comanda:hover,
 .tela-cozinha:hover,
@@ -173,3 +176,11 @@ p{
 }
 
 
+.agend-icon{
+    position: absolute;
+    left: 5px;
+    border-right: 2px solid rgb(112, 109, 109);
+    padding: 0px 8px 0px 0px;
+    
+    
+}
