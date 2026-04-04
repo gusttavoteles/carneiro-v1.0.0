@@ -8,7 +8,7 @@ function validarLogin() {
         return false;
     } else if (usuario == "karol@1234" && senha == "1234"){
                 alert("Bem vinda, Karol!")
-                window.location.href = "html/adm.html";
+                window.location.href = "../pages/adm.html";
                 return false;
     }
     
